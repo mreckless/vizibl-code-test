@@ -1,0 +1,35 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    background-color: #262626;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+#results {
+    max-width: 60%;
+    color: black;
+    background-color: white;
+    border-radius: 8px;
+    padding: 50px;
+}
+
+#more {
+  background-color: white;
+  border: 1px solid #262626;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 6px 16px;
+}
+
+#more:disabled {
+    cursor: default;
+}
